@@ -17,28 +17,53 @@ class Naver():
     place = Place(store_infos['id'], store_infos['name'], store_infos["tel"], store_infos['address'], store_infos['img'])
     place.show()
 
+    if store_infos['id']:
+      print('[SAVE] store_name: %s'%(store_name))
+      place.save()
+    else:
+      print('[UN SAVE] store_name: %s'%(store_name))
+
   def get_id(self, store_name):
-  
-    url = "https://store.naver.com/restaurants/detail?entry=plt&id=11708756&query=%s&tab=receiptReview&tabPage=0"
-    res = rq.get(url%(store_name), headers={
-      'Referer': url%(parse.quote(store_name)),
+    search_url = 'https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=%s'
+    res = rq.get(search_url%(store_name), headers={
+      'Referer': search_url%(parse.quote(store_name)),
       "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
     })
-    
     soup = BeautifulSoup(res.content, 'lxml')
     
-    link = soup.select('a.link')
-    query_parsed = urlparse(link[0].get('href'))
-    store_id=parse_qs(query_parsed.query)['id'][0]
+    if len(soup.select('.api_more_theme')):
+      store_id = parse_qs(soup.select('.api_more_theme')[0].get('href'))['id'][0]
+      name_dom = soup.select('#place_main_ct .biz_name_area .biz_name')
+      tel_dom = soup.select('#place_main_ct .list_item_biztel div.txt')
+      address_dom = soup.select('#place_main_ct .list_item_address span.addr')
+      img_dom = soup.select('#place_main_ct .top_photo_area img')
 
-    return {
-      "id": store_id,
-      "name": soup.select('#content .biz_name_area strong.name')[0].text,
-      "tel": soup.select('#content .list_item_biztel div.txt')[0].text,
-      "address": soup.select('#content .list_item_address span.addr')[0].text,
-      "img": soup.select('a.naver-splugin')[0].get('data-kakaotalk-image-url')
-    }
+      return {
+        "id": store_id ,
+        "name": len(name_dom) and name_dom[0].text,
+        "tel": len(tel_dom) and tel_dom[0].text,
+        "address": len(address_dom) and address_dom[0].text,
+        "img": len(img_dom) and img_dom[0].get('src')
+      }
+    else :
+      return {
+        "id": None,
+        "name": None,
+        "tel": None,
+        "address": None,
+        "img": None,
+      }
 
+    def get_commends(self, store_id):
+      print(store_id)
+      url = "https://store.naver.com/restaurants/detail?entry=plt&id=%s&tab=receiptReview&tabPage=0"
+      res = rq.get(url%(store_id), headers={
+        'Referer': url%(parse.quote(store_id)),
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+      })
+      
+      soup = BeautifulSoup(res.content, 'lxml')
+      
 if __name__ == "__main__":
   # id 가져오기
   # BASE_URL = "https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=%s"

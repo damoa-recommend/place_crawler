@@ -14,7 +14,8 @@ class Kakao():
     
     place = Place(store_infos['confirmid'], store_infos['name'], store_infos['tel'], store_infos['address'], store_infos['img'])
     place.show()
-    commends = self.get_commends(place.id)
+    # place.save()
+    commends = self.get_commends(store_name, place.placeId)
     print(len(commends), commends)
 
   def get_id(self, store_name):
@@ -25,16 +26,21 @@ class Kakao():
       "Referer": "https://map.kakao.com/?q=%s"%(parse.quote(store_name)),
       "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
     })
+
     return  res.json().get('place', [])
 
-  def get_commends(self, store_id):
+  def get_commends(self, store_name, store_id):
     url ='https://place.map.kakao.com/commentlist/v/%s/%d?platform='
     start_page = 1
     end_page = 3
     commends = []
 
     for page in range(start_page, end_page):
-      res = rq.get(url%(store_id, page))
+      res = rq.get(url%(store_id, page), headers={
+        # 'Referer': url%(store_name),
+        "Referer": "https://map.kakao.com/?q=%s"%(parse.quote(store_name)),
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+      })
       data = res.json()
 
       for item in data.get('comment', {'list': []}).get('list', []):
@@ -62,7 +68,7 @@ def get_commends(store_id):
 
   for page in range(start_page, end_page):
     url ='https://place.map.kakao.com/commentlist/v/%s/%d?platform='
-    res = rq.get(url%(store_id, page))
+    res = rq.get(url%(store_id, page), headers={})
 
     data = res.json()
     print('[PAEG] %d page'%(page))

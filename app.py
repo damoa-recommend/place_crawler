@@ -54,6 +54,6 @@ if __name__ == "__main__":
   n = Naver()
   
   place = Place()
-  place.register(n).register(k) #.register(g)
+  place.register(k)#.register(n) #.register(g)
 
   place.start()
