@@ -44,22 +44,38 @@ store_id = '13513620'
 # 덕수궁돌담길(13513620), 서울중앙시장(13304246), 카페 할아버지공장(1425989301), 비아37(11853181) => 등 json decode 에러
 page = 1
 display = 10
-url = "https://store.naver.com/sogum/api/receiptReviews?businessId=%s&page=%d&display=%d"
+# url = "https://store.naver.com/sogum/api/receiptReviews?businessId=%s&page=%d&display=%d"
 
-while True:
-  res = rq.get(url%(store_id, page, display), headers = {
-    'Referer': 'https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=%EC%97%B0%EB%82%A8%EC%84%9C%EC%8B%9D%EB%8B%B9&',
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
-  })
-  print(res.text)
-  d = res.json()
+# while True:
+#   res = rq.get(url%(store_id, page, display), headers = {
+#     'Referer': 'https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=%EC%97%B0%EB%82%A8%EC%84%9C%EC%8B%9D%EB%8B%B9&',
+#     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+#   })
+#   print(res.text)
+#   d = res.json()
 
-  res_comments = d.get('items', [])
-  print('============== %d page =============='%(page))
-  for c in res_comments:
-    print('h: %s, author: %s, body: %s'%(encode_sha2(c['body']), c['authorId'], c['body'], ))
+#   res_comments = d.get('items', [])
+#   print('============== %d page =============='%(page))
+#   for c in res_comments:
+#     print('h: %s, author: %s, body: %s'%(encode_sha2(c['body']), c['authorId'], c['body'], ))
   
-  time.sleep(0.6)
-  page += 1
+#   time.sleep(0.6)
+#   page += 1
 
-# print('😪😭')
+# # print('😪😭')
+
+store_id = '12268494'
+
+url ='https://store.naver.com/restaurants/detail?entry=plt&id=%s&tab=main'
+res = rq.get(url%(store_id), headers={
+  # 'Referer': 'https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=%EC%97%B0%EB%82%A8%EC%84%9C%EC%8B%9D%EB%8B%B9&',
+  "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+})
+
+
+soup = BeautifulSoup(res.content, 'lxml')
+relations = soup.select('.relation_place_area .flick_content')
+# print(soup)
+# print(relations)
+for relation in relations:
+  print('link: %s, name: %s'%(relation.select_one('.thumb_area').get('href'), relation.select_one('.name').text))

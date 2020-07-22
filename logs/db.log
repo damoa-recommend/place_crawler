@@ -2146,3 +2146,51 @@
 [parameters: (896, 'Kakao', '8128910', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
 (Background on this error at: http://sqlalche.me/e/gkpj)
 
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-12967315-47vUZ-701a90d74ffc2de90af399ae1146542269e6d2b0934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (495, 'Naver', '12967315', '47vUZ', '친절함', '701a90d74ffc2de90af399ae1146542269e6d2b0934dd0fa2d2f90db1ec39e40', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11583235-1RgzY-4e89f12afd275d8a286bd5b204bcb803cc09fc91aae' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (507, 'Naver', '11583235', '1RgzY', '좋아요 ', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 4.5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11571730-aPidN-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (526, 'Naver', '11571730', 'aPidN', '           ', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-35563009-j01b-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (550, 'Naver', '35563009', 'j01b', '          ', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4.5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11576171-6fZ6R-4e89f12afd275d8a286bd5b204bcb803cc09fc91aae' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (557, 'Naver', '11576171', '6fZ6R', '좋아요', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11662870-1zCNV-03b87f7121c91d1c28e171ec69201c10de1309c212f' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (560, 'Naver', '11662870', '1zCNV', '좋아', '03b87f7121c91d1c28e171ec69201c10de1309c212f5dd062941f5c2e85c2a6e', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-18063223-qqKt-4e89f12afd275d8a286bd5b204bcb803cc09fc91aaee' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (611, 'Naver', '18063223', 'qqKt', '좋아요 ', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11571740-68VoL-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (616, 'Naver', '11571740', '68VoL', None, 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+

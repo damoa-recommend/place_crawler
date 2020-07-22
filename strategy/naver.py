@@ -5,8 +5,10 @@ from urllib.parse import urlparse, parse_qs, parse_qsl
 
 from models.place import Place
 from models.comment import Comment
+from models.relation import Relation
 
 from utils.crypto import encode_sha2
+
 
 class Naver():
   platform = 'Naver'
@@ -17,7 +19,7 @@ class Naver():
   async def start(self, store_name):
     print('platform: %s, store_name: %s'%(self.platform, store_name))
     store_infos = self.get_id(store_name)
-    place = Place(store_infos['id'], store_infos['name'], store_infos["tel"], store_infos['address'], store_infos['img'])
+    place = Place(store_infos['id'], store_infos['name'], store_infos["tel"], store_infos['address'], store_infos['img'], store_infos['link'])
     place.show()
     placeId = 0
 
@@ -34,6 +36,8 @@ class Naver():
 
     print('[SAVE COMMENT] count: %d'%(len(comments)))
 
+    relations = self.get_relations(placeId, store_name, place.siteId, place.link)
+    
   def get_id(self, store_name):
     search_url = 'https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=%s'
     res = rq.get(search_url%(store_name), headers={
@@ -54,7 +58,8 @@ class Naver():
         "name": len(name_dom) and name_dom[0].text,
         "tel": len(tel_dom) and tel_dom[0].text,
         "address": len(address_dom) and address_dom[0].text,
-        "img": len(img_dom) and img_dom[0].get('src')
+        "img": len(img_dom) and img_dom[0].get('src'),
+        "link": soup.select('a.api_more_theme')[0].get('href')
       }
     else :
       return {
@@ -63,6 +68,7 @@ class Naver():
         "tel": None,
         "address": None,
         "img": None,
+        "link": None,
       }
 
   def get_comments(self, placeId, store_name, store_id):
@@ -100,6 +106,29 @@ class Naver():
     return comments
 
 
+  def get_relations(self, placeId, store_name, store_id, link):
+    # print(placeId, store_name, store_id, link)
+    res = rq.get(link, headers={
+      # 'Referer': 'https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=%EC%97%B0%EB%82%A8%EC%84%9C%EC%8B%9D%EB%8B%B9&',
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+    })
+
+    soup = BeautifulSoup(res.content, 'lxml')
+    relations = soup.select('.relation_place_area .flick_content')
+    # print(soup)
+    # print(relations)
+    for relation in relations:
+      link_qs = relation.select_one('.thumb_area').get('href').split('?')[1]
+      name = relation.select_one('.name').text
+      print('link: %s, qs: %s, name: %s'%(link, link_qs, name))
+
+      siteId = parse_qs(link_qs)['id'][0]
+      r = Relation(placeId, name, link, siteId)
+      r.save()
+
+    return []
+
+    
 if __name__ == "__main__":
   # id 가져오기
   # BASE_URL = "https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=%s"

@@ -30,10 +30,13 @@ CREATE TABLE Comments (
 ) default CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, ENGINE = InnoDB;
 
 CREATE TABLE Relations (
-  placeId INT(11) NOT NULL,
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  placeId INT(11) NOT NULL,-- Places 테이블의 id
 
+  siteId VARCHAR(255) NOT NULL, -- 사이트에 표시된 장소 id
   name VARCHAR(255) NOT NULL,
   link text,
 
+  PRIMARY KEY(id),
   FOREIGN KEY (placeId) REFERENCES Places (id)
 ) default CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, ENGINE = InnoDB;

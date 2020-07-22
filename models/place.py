@@ -12,19 +12,21 @@ class Place(Base):
   address  = Column(String)
   img      = Column(Text)
 
-  def __init__(self, siteId, name, tel, address, img):
+  def __init__(self, siteId, name, tel, address, img, link):
     self.siteId = siteId
     self.name = name
     self.tel = tel
     self.address = address
     self.img = img
+    self.link = link
 
   def show(self):
-    print('siteId: {siteId}, name: {name}, tel: {tel}, addr: {address}, img: {img}'.format(
+    print('siteId: {siteId}, name: {name}, tel: {tel}, addr: {address}, link: {link}, img: {img}'.format(
         siteId=self.siteId,
         name=self.name,
         tel=self.tel,
         address=self.address,
+        link=self.link,
         img=self.img
     ))
 
