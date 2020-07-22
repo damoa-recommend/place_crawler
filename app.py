@@ -27,7 +27,7 @@ class Place():
       delay_time = random.uniform(1, 3)
       print('delay time: %f\n'%(delay_time))
       time.sleep(delay_time)
-
+    
   def start(self):
       asyncio.run(self.execute())
 
@@ -54,6 +54,6 @@ if __name__ == "__main__":
   n = Naver()
   
   place = Place()
-  place.register(k)#.register(n) #.register(g)
+  place.register(n).register(k) #.register(g)
 
   place.start()

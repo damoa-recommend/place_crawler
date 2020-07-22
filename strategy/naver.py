@@ -2,8 +2,11 @@ import requests as rq
 from bs4 import BeautifulSoup
 from urllib import parse
 from urllib.parse import urlparse, parse_qs, parse_qsl
-from models.place import Place
 
+from models.place import Place
+from models.comment import Comment
+
+from utils.crypto import encode_sha2
 
 class Naver():
   platform = 'Naver'
@@ -16,12 +19,20 @@ class Naver():
     store_infos = self.get_id(store_name)
     place = Place(store_infos['id'], store_infos['name'], store_infos["tel"], store_infos['address'], store_infos['img'])
     place.show()
+    placeId = 0
 
     if store_infos['id']:
-      print('[SAVE] store_name: %s'%(store_name))
-      place.save()
+      print('[SAVE PLACE] store_name: %s'%(store_name))
+      placeId = place.save()
     else:
       print('[UN SAVE] store_name: %s'%(store_name))
+      return 
+    
+    comments = self.get_comments(placeId, store_name, place.siteId)
+    for c in comments:
+      c.save()
+
+    print('[SAVE COMMENT] count: %d'%(len(comments)))
 
   def get_id(self, store_name):
     search_url = 'https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=%s'
@@ -31,8 +42,8 @@ class Naver():
     })
     soup = BeautifulSoup(res.content, 'lxml')
     
-    if len(soup.select('.api_more_theme')):
-      store_id = parse_qs(soup.select('.api_more_theme')[0].get('href'))['id'][0]
+    if len(soup.select('a.api_more_theme')) and soup.select('a.api_more_theme')[0].get('href').find('store.naver.com')> -1:
+      store_id = parse_qs(soup.select('a.api_more_theme')[0].get('href'))['id'][0]
       name_dom = soup.select('#place_main_ct .biz_name_area .biz_name')
       tel_dom = soup.select('#place_main_ct .list_item_biztel div.txt')
       address_dom = soup.select('#place_main_ct .list_item_address span.addr')
@@ -54,16 +65,41 @@ class Naver():
         "img": None,
       }
 
-    def get_commends(self, store_id):
-      print(store_id)
-      url = "https://store.naver.com/restaurants/detail?entry=plt&id=%s&tab=receiptReview&tabPage=0"
-      res = rq.get(url%(store_id), headers={
-        'Referer': url%(parse.quote(store_id)),
+  def get_comments(self, placeId, store_name, store_id):
+    page = 1
+    display = 10
+    url = "https://store.naver.com/sogum/api/receiptReviews?businessId=%s&page=%d&display=%d"
+    
+    comments = []
+    is_exist = False
+
+    while True:
+      res = rq.get(url%(store_id, page, display), headers = {
+        'Referer': 'https://store.naver.com/restaurants/detail?entry=plt&id=%s&tab=receiptReview'%(store_id),
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
       })
+      res_data = res.json()
+      res_comments = res_data.get('items', [])
+      for res_comment in res_comments:
+        C = Comment(
+          placeId, store_id, self.platform, 
+          res_comment['authorId'], encode_sha2(res_comment['body']), res_comment['body'], res_comment['rating']
+        )
+        is_exist = C.is_exist_comment()
+        print(is_exist)
+        if not is_exist:
+          comments.append(C)
+        if is_exist:
+          break
       
-      soup = BeautifulSoup(res.content, 'lxml')
-      
+      page += 1
+
+      if len(res_comments) < display or is_exist:
+        break
+
+    return comments
+
+
 if __name__ == "__main__":
   # id 가져오기
   # BASE_URL = "https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=%s"

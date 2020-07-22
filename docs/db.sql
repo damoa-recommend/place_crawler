@@ -1,4 +1,4 @@
-CREATE DATABASE Place DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE Place DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE Place;
 
 CREATE TABLE Places (
@@ -10,22 +10,24 @@ CREATE TABLE Places (
   img TEXT,
 
   PRIMARY KEY(id)
-) default character set utf8 collate utf8_general_ci, ENGINE = InnoDB;
+) default CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, ENGINE = InnoDB;
 
-# placeId, platform, author, contextHash를 묶어서 유니크 값으로 취급한다.
-CREATE TABLE Commends (
-  id VARCHAR(255) NOT NULL -- 사이트에 표시된 장소 id
-  placeId VARCHAR(255) NOT NULL, -- Places 테이블의 id
-  platform VARCHAR(255) NOT NULL,
+# placeId, platform, author, contentHash를 묶어서 유니크 값으로 취급한다.
+CREATE TABLE Comments (
+  placeId INT(11) NOT NULL, -- Places 테이블의 id
+  
+  platform VARCHAR(30) NOT NULL,
+  siteId VARCHAR(255) NOT NULL, -- 사이트에 표시된 장소 id
   author VARCHAR(255) NOT NULL,
-  contextHash CHAR(64),
-
   content TEXT,
+  
+  contentHash CHAR(64),
+
   grade DOUBLE,
 
-  PRIMARY KEY(platform, author, contextHash),
+  PRIMARY KEY(platform, siteId, author, contentHash),
   FOREIGN KEY (placeId) REFERENCES Places (id)
-) default character set utf8 collate utf8_general_ci, ENGINE = InnoDB;
+) default CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, ENGINE = InnoDB;
 
 CREATE TABLE Relations (
   placeId INT(11) NOT NULL,
@@ -34,4 +36,4 @@ CREATE TABLE Relations (
   link text,
 
   FOREIGN KEY (placeId) REFERENCES Places (id)
-) default character set utf8 collate utf8_general_ci, ENGINE = InnoDB;
+) default CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci, ENGINE = InnoDB;

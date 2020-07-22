@@ -1,0 +1,2148 @@
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-12967315-47vUZ-701a90d74ffc2de90af399ae1146542269e6d2b0934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (81, 'Naver', '12967315', '47vUZ', '친절함', '701a90d74ffc2de90af399ae1146542269e6d2b0934dd0fa2d2f90db1ec39e40', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11620311-355YF-5092a0e5118098a23b5787af98aaa268a67748f3aaf' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (86, 'Naver', '11620311', '355YF', '저렴하고 맛있어여', '5092a0e5118098a23b5787af98aaa268a67748f3aaf3226ac95f6229eb767987', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11583235-1RgzY-4e89f12afd275d8a286bd5b204bcb803cc09fc91aae' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (87, 'Naver', '11583235', '1RgzY', '좋아요 ', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 4.5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11491416-6ftjM-4e89f12afd275d8a286bd5b204bcb803cc09fc91aae' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (88, 'Naver', '11491416', '6ftjM', '좋아요', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11571730-aPidN-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (97, 'Naver', '11571730', 'aPidN', '           ', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-33299811-uhuD-c939327ca16dcf97ca32521d8b834bf1de16573d21de' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (98, 'Naver', '33299811', 'uhuD', 'Good', 'c939327ca16dcf97ca32521d8b834bf1de16573d21deda3bb2a337cf403787a6', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-35563009-j01b-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (113, 'Naver', '35563009', 'j01b', '          ', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4.5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11576171-6fZ6R-4e89f12afd275d8a286bd5b204bcb803cc09fc91aae' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (116, 'Naver', '11576171', '6fZ6R', '좋아요', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11662870-1zCNV-03b87f7121c91d1c28e171ec69201c10de1309c212f' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (118, 'Naver', '11662870', '1zCNV', '좋아', '03b87f7121c91d1c28e171ec69201c10de1309c212f5dd062941f5c2e85c2a6e', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11582919-2xoA7-4e89f12afd275d8a286bd5b204bcb803cc09fc91aae' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (140, 'Naver', '11582919', '2xoA7', '좋아요', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-18063223-qqKt-4e89f12afd275d8a286bd5b204bcb803cc09fc91aaee' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (143, 'Naver', '18063223', 'qqKt', '좋아요 ', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11571740-68VoL-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (147, 'Naver', '11571740', '68VoL', None, 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11715055-vJSK-d2df2197e887a0da537ced682adc3f0b1200c352ce51' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (155, 'Naver', '11715055', 'vJSK', '맛있어요', 'd2df2197e887a0da537ced682adc3f0b1200c352ce51f89f2fddc88e78c8d333', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-36908457-5FVPi-11a824eed688fd3167b365b311677898aa4a929182c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (175, 'Naver', '36908457', '5FVPi', 'ㅎㅎㅎㅎ', '11a824eed688fd3167b365b311677898aa4a929182cd9d29b0bf6890ca1ac7e5', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-36874015-7jpne-4e89f12afd275d8a286bd5b204bcb803cc09fc91aae' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (185, 'Naver', '36874015', '7jpne', '좋아요', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-13475855-1X9G5-4e89f12afd275d8a286bd5b204bcb803cc09fc91aae' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (193, 'Naver', '13475855', '1X9G5', '좋아요 ', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-17929286-m551-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (203, 'Naver', '17929286', 'm551', None, 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11592650-1zPjk-16baaa86e227c8ff6933a6e65d25406afea0f9b6189' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (206, 'Naver', '11592650', '1zPjk', '굳굳', '16baaa86e227c8ff6933a6e65d25406afea0f9b61890ce3b89fcfd4772394fd4', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-35816452-87J5o-d2df2197e887a0da537ced682adc3f0b1200c352ce5' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (266, 'Naver', '35816452', '87J5o', '맛있어요', 'd2df2197e887a0da537ced682adc3f0b1200c352ce51f89f2fddc88e78c8d333', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10658514--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (76, 'Kakao', '10658514', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18619553--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (78, 'Kakao', '18619553', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12697772--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (269, 'Kakao', '12697772', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11331488--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (80, 'Kakao', '11331488', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12640801--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (270, 'Kakao', '12640801', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11411449--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (81, 'Kakao', '11411449', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-14876832--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (271, 'Kakao', '14876832', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7934963--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (82, 'Kakao', '7934963', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7936297--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (275, 'Kakao', '7936297', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8259558--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (84, 'Kakao', '8259558', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8023565--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (85, 'Kakao', '8023565', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8077761--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (276, 'Kakao', '8077761', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27560699-k-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (87, 'Kakao', '27560699', 'k', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8246127--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (105, 'Kakao', '8246127', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26967382--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (277, 'Kakao', '26967382', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21134699--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (278, 'Kakao', '21134699', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7912367--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (89, 'Kakao', '7912367', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10625168--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (90, 'Kakao', '10625168', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21355377--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (91, 'Kakao', '21355377', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7937466--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (279, 'Kakao', '7937466', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1185919020--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (92, 'Kakao', '1185919020', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8074770--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (282, 'Kakao', '8074770', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10849847--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (93, 'Kakao', '10849847', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12322745--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (95, 'Kakao', '12322745', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-17163566--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (96, 'Kakao', '17163566', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10305191--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (97, 'Kakao', '10305191', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1943025765--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (285, 'Kakao', '1943025765', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11108611--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (99, 'Kakao', '11108611', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8191467--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (101, 'Kakao', '8191467', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8128836--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (103, 'Kakao', '8128836', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7891659--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (107, 'Kakao', '7891659', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11345935--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (108, 'Kakao', '11345935', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11346534--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (109, 'Kakao', '11346534', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27503784--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (110, 'Kakao', '27503784', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27117824--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (111, 'Kakao', '27117824', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8678941--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (293, 'Kakao', '8678941', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26409687--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (113, 'Kakao', '26409687', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11017626--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (294, 'Kakao', '11017626', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-25479306-ㅇ-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b9' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (114, 'Kakao', '25479306', 'ㅇ', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18164705--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (115, 'Kakao', '18164705', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8103828--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (297, 'Kakao', '8103828', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10666639--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (117, 'Kakao', '10666639', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8830150--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (119, 'Kakao', '8830150', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-17952661--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (299, 'Kakao', '17952661', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26781276--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (120, 'Kakao', '26781276', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8075129--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (124, 'Kakao', '8075129', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-25027484--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (300, 'Kakao', '25027484', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8238897--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (301, 'Kakao', '8238897', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10952963--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (303, 'Kakao', '10952963', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11141124--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (128, 'Kakao', '11141124', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8287165--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (307, 'Kakao', '8287165', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27192901--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (315, 'Kakao', '27192901', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10771162--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (133, 'Kakao', '10771162', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27391808--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (134, 'Kakao', '27391808', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8214304--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (136, 'Kakao', '8214304', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-14576857--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (318, 'Kakao', '14576857', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21566385--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (138, 'Kakao', '21566385', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-698862734--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (321, 'Kakao', '698862734', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7934135--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (322, 'Kakao', '7934135', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10427225--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (323, 'Kakao', '10427225', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-25022134--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (143, 'Kakao', '25022134', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-25039734--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (326, 'Kakao', '25039734', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8167380--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (145, 'Kakao', '8167380', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27327842--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (146, 'Kakao', '27327842', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11156260--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (147, 'Kakao', '11156260', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8829033--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (328, 'Kakao', '8829033', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-17990926--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (329, 'Kakao', '17990926', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27383851--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (148, 'Kakao', '27383851', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8053611--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (149, 'Kakao', '8053611', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21330556-SJ-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (150, 'Kakao', '21330556', 'SJ', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11321061--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (151, 'Kakao', '11321061', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10740679--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (152, 'Kakao', '10740679', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11338178-?-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (153, 'Kakao', '11338178', '🐣', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8184985--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (154, 'Kakao', '8184985', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-13050574--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (155, 'Kakao', '13050574', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12070857--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (157, 'Kakao', '12070857', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7997234--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (159, 'Kakao', '7997234', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11062391--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (160, 'Kakao', '11062391', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10203930--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (161, 'Kakao', '10203930', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-16418510--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (338, 'Kakao', '16418510', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-17734296--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (339, 'Kakao', '17734296', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12539329-김혜정-e3b0c44298fc1c149afbf4c8996fb92427ae41e' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (340, 'Kakao', '12539329', '김혜정', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18526234--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (163, 'Kakao', '18526234', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-14866540--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (341, 'Kakao', '14866540', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8126939--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (342, 'Kakao', '8126939', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27189287--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (167, 'Kakao', '27189287', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8341805--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (343, 'Kakao', '8341805', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12591043--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (345, 'Kakao', '12591043', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-20002003--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (169, 'Kakao', '20002003', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-15982071-.-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (173, 'Kakao', '15982071', '.', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21356316--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (351, 'Kakao', '21356316', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8572077--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (178, 'Kakao', '8572077', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26574462--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (359, 'Kakao', '26574462', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1051067157-.-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b9' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (186, 'Kakao', '1051067157', '.', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-644267979-.-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (360, 'Kakao', '644267979', '.', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1276208385--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (364, 'Kakao', '1276208385', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26966842--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (365, 'Kakao', '26966842', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-20747491--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (366, 'Kakao', '20747491', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11337432--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (190, 'Kakao', '11337432', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-13282351--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (367, 'Kakao', '13282351', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-20479577--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (192, 'Kakao', '20479577', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7966280--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (193, 'Kakao', '7966280', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18203409--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (196, 'Kakao', '18203409', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21545282--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (197, 'Kakao', '21545282', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-20180862--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (372, 'Kakao', '20180862', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-890843625--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (374, 'Kakao', '890843625', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-13284345--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (202, 'Kakao', '13284345', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 2)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8465462--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (204, 'Kakao', '8465462', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8691199--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (205, 'Kakao', '8691199', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10332413-.-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (206, 'Kakao', '10332413', '.', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 2)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-13594109--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (381, 'Kakao', '13594109', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11893490--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (207, 'Kakao', '11893490', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-23254074--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (384, 'Kakao', '23254074', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10955757--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (209, 'Kakao', '10955757', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12180619--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (385, 'Kakao', '12180619', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-15317417--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (388, 'Kakao', '15317417', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7937927--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (391, 'Kakao', '7937927', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-13028509--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (394, 'Kakao', '13028509', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-2104663194--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (395, 'Kakao', '2104663194', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-15104327--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (396, 'Kakao', '15104327', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26533469-임길섭-e3b0c44298fc1c149afbf4c8996fb92427ae41e' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (397, 'Kakao', '26533469', '임길섭', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27299118--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (401, 'Kakao', '27299118', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18524630--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (217, 'Kakao', '18524630', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-23209304--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (218, 'Kakao', '23209304', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-22730592--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (220, 'Kakao', '22730592', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27153079--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (404, 'Kakao', '27153079', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-17384905--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (407, 'Kakao', '17384905', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7937294--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (224, 'Kakao', '7937294', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8047010--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (408, 'Kakao', '8047010', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-649402253--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (410, 'Kakao', '649402253', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1301973155-?-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b9' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (413, 'Kakao', '1301973155', '😀', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 2)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26611217--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (426, 'Kakao', '26611217', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12860036--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (428, 'Kakao', '12860036', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-15493954--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (429, 'Kakao', '15493954', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-24635663--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (430, 'Kakao', '24635663', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21160709--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (437, 'Kakao', '21160709', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12630966--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (238, 'Kakao', '12630966', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11202762--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (444, 'Kakao', '11202762', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27184288-도그커넥트-e3b0c44298fc1c149afbf4c8996fb9242' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (445, 'Kakao', '27184288', '도그커넥트', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18567555--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (454, 'Kakao', '18567555', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-15589117--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (455, 'Kakao', '15589117', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-24925090--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (246, 'Kakao', '24925090', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-15953085--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (456, 'Kakao', '15953085', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26967050--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (248, 'Kakao', '26967050', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-13494415--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (457, 'Kakao', '13494415', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8503628--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (458, 'Kakao', '8503628', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-19313939--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (250, 'Kakao', '19313939', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1276627753--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (252, 'Kakao', '1276627753', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8492841--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (463, 'Kakao', '8492841', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8117216--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (469, 'Kakao', '8117216', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18826661--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (254, 'Kakao', '18826661', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12591155--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (470, 'Kakao', '12591155', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11831420--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (255, 'Kakao', '11831420', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27401535--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (474, 'Kakao', '27401535', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1919474094--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (259, 'Kakao', '1919474094', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27387877-.-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (477, 'Kakao', '27387877', '.', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27301289--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (261, 'Kakao', '27301289', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27481601--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (478, 'Kakao', '27481601', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26562398--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (266, 'Kakao', '26562398', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10005888--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (267, 'Kakao', '10005888', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-25048467--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (481, 'Kakao', '25048467', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8130030--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (268, 'Kakao', '8130030', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8128910--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (485, 'Kakao', '8128910', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10658514--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (488, 'Kakao', '10658514', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18619553--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (490, 'Kakao', '18619553', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12697772--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (492, 'Kakao', '12697772', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11331488--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (493, 'Kakao', '11331488', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12640801--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (494, 'Kakao', '12640801', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11411449--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (495, 'Kakao', '11411449', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-14876832--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (496, 'Kakao', '14876832', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7934963--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (500, 'Kakao', '7934963', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7936297--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (502, 'Kakao', '7936297', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8259558--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (503, 'Kakao', '8259558', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8023565--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (504, 'Kakao', '8023565', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11620311-355YF-5092a0e5118098a23b5787af98aaa268a67748f3aaf' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (505, 'Naver', '11620311', '355YF', '저렴하고 맛있어여', '5092a0e5118098a23b5787af98aaa268a67748f3aaf3226ac95f6229eb767987', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8077761--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (506, 'Kakao', '8077761', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27560699-k-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (507, 'Kakao', '27560699', 'k', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8246127--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (508, 'Kakao', '8246127', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26967382--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (509, 'Kakao', '26967382', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11491416-6ftjM-4e89f12afd275d8a286bd5b204bcb803cc09fc91aae' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (510, 'Naver', '11491416', '6ftjM', '좋아요', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21134699--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (511, 'Kakao', '21134699', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7912367--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (512, 'Kakao', '7912367', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10625168--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (513, 'Kakao', '10625168', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21355377--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (514, 'Kakao', '21355377', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7937466--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (515, 'Kakao', '7937466', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1185919020--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (516, 'Kakao', '1185919020', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8074770--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (519, 'Kakao', '8074770', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10849847--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (520, 'Kakao', '10849847', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12322745--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (523, 'Kakao', '12322745', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-17163566--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (525, 'Kakao', '17163566', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10305191--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (526, 'Kakao', '10305191', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-33299811-uhuD-c939327ca16dcf97ca32521d8b834bf1de16573d21de' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (527, 'Naver', '33299811', 'uhuD', 'Good', 'c939327ca16dcf97ca32521d8b834bf1de16573d21deda3bb2a337cf403787a6', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1943025765--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (528, 'Kakao', '1943025765', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11108611--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (530, 'Kakao', '11108611', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8191467--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (533, 'Kakao', '8191467', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8128836--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (536, 'Kakao', '8128836', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7891659--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (541, 'Kakao', '7891659', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11345935--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (542, 'Kakao', '11345935', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11346534--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (543, 'Kakao', '11346534', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27503784--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (545, 'Kakao', '27503784', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27117824--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (546, 'Kakao', '27117824', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8678941--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (549, 'Kakao', '8678941', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26409687--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (550, 'Kakao', '26409687', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11017626--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (551, 'Kakao', '11017626', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-25479306-ㅇ-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b9' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (552, 'Kakao', '25479306', 'ㅇ', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18164705--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (553, 'Kakao', '18164705', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8103828--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (556, 'Kakao', '8103828', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10666639--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (558, 'Kakao', '10666639', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8830150--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (561, 'Kakao', '8830150', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-17952661--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (562, 'Kakao', '17952661', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26781276--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (563, 'Kakao', '26781276', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8075129--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (566, 'Kakao', '8075129', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-25027484--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (568, 'Kakao', '25027484', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8238897--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (569, 'Kakao', '8238897', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10952963--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (572, 'Kakao', '10952963', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11141124--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (575, 'Kakao', '11141124', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8287165--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (579, 'Kakao', '8287165', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27192901--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (590, 'Kakao', '27192901', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10771162--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (591, 'Kakao', '10771162', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27391808--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (592, 'Kakao', '27391808', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8214304--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (594, 'Kakao', '8214304', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-14576857--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (598, 'Kakao', '14576857', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21566385--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (599, 'Kakao', '21566385', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-698862734--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (602, 'Kakao', '698862734', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7934135--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (604, 'Kakao', '7934135', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11582919-2xoA7-4e89f12afd275d8a286bd5b204bcb803cc09fc91aae' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (605, 'Naver', '11582919', '2xoA7', '좋아요', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10427225--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (606, 'Kakao', '10427225', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-25022134--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (611, 'Kakao', '25022134', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-25039734--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (613, 'Kakao', '25039734', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8167380--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (614, 'Kakao', '8167380', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27327842--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (615, 'Kakao', '27327842', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11156260--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (616, 'Kakao', '11156260', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8829033--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (618, 'Kakao', '8829033', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-17990926--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (619, 'Kakao', '17990926', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27383851--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (620, 'Kakao', '27383851', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8053611--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (621, 'Kakao', '8053611', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21330556-SJ-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (622, 'Kakao', '21330556', 'SJ', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11321061--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (623, 'Kakao', '11321061', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10740679--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (624, 'Kakao', '10740679', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11338178-?-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (625, 'Kakao', '11338178', '🐣', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8184985--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (626, 'Kakao', '8184985', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11715055-vJSK-d2df2197e887a0da537ced682adc3f0b1200c352ce51' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (627, 'Naver', '11715055', 'vJSK', '맛있어요', 'd2df2197e887a0da537ced682adc3f0b1200c352ce51f89f2fddc88e78c8d333', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-13050574--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (627, 'Kakao', '13050574', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12070857--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (630, 'Kakao', '12070857', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7997234--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (635, 'Kakao', '7997234', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11062391--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (636, 'Kakao', '11062391', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10203930--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (638, 'Kakao', '10203930', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-16418510--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (643, 'Kakao', '16418510', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-17734296--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (644, 'Kakao', '17734296', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12539329-김혜정-e3b0c44298fc1c149afbf4c8996fb92427ae41e' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (645, 'Kakao', '12539329', '김혜정', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18526234--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (646, 'Kakao', '18526234', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-14866540--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (648, 'Kakao', '14866540', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8126939--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (650, 'Kakao', '8126939', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27189287--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (652, 'Kakao', '27189287', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8341805--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (654, 'Kakao', '8341805', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12591043--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (656, 'Kakao', '12591043', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-20002003--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (657, 'Kakao', '20002003', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-15982071-.-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (666, 'Kakao', '15982071', '.', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21356316--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (668, 'Kakao', '21356316', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-36908457-5FVPi-11a824eed688fd3167b365b311677898aa4a929182c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (669, 'Naver', '36908457', '5FVPi', 'ㅎㅎㅎㅎ', '11a824eed688fd3167b365b311677898aa4a929182cd9d29b0bf6890ca1ac7e5', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8572077--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (675, 'Kakao', '8572077', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26574462--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (685, 'Kakao', '26574462', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-36874015-7jpne-4e89f12afd275d8a286bd5b204bcb803cc09fc91aae' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (687, 'Naver', '36874015', '7jpne', '좋아요', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1051067157-.-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b9' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (688, 'Kakao', '1051067157', '.', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-644267979-.-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (689, 'Kakao', '644267979', '.', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1276208385--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (695, 'Kakao', '1276208385', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26966842--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (696, 'Kakao', '26966842', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-20747491--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (698, 'Kakao', '20747491', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11337432--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (699, 'Kakao', '11337432', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-13282351--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (701, 'Kakao', '13282351', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-20479577--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (702, 'Kakao', '20479577', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-13475855-1X9G5-4e89f12afd275d8a286bd5b204bcb803cc09fc91aae' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (703, 'Naver', '13475855', '1X9G5', '좋아요 ', '4e89f12afd275d8a286bd5b204bcb803cc09fc91aaeedba1cc7245bfa98ff748', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7966280--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (703, 'Kakao', '7966280', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18203409--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (707, 'Kakao', '18203409', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21545282--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (708, 'Kakao', '21545282', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-20180862--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (713, 'Kakao', '20180862', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-890843625--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (715, 'Kakao', '890843625', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-13284345--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (724, 'Kakao', '13284345', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 2)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-17929286-m551-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (725, 'Naver', '17929286', 'm551', None, 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8465462--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (727, 'Kakao', '8465462', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8691199--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (728, 'Kakao', '8691199', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-11592650-1zPjk-16baaa86e227c8ff6933a6e65d25406afea0f9b6189' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (729, 'Naver', '11592650', '1zPjk', '굳굳', '16baaa86e227c8ff6933a6e65d25406afea0f9b61890ce3b89fcfd4772394fd4', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10332413-.-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (729, 'Kakao', '10332413', '.', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 2)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-13594109--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (730, 'Kakao', '13594109', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11893490--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (733, 'Kakao', '11893490', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-23254074--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (735, 'Kakao', '23254074', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10955757--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (736, 'Kakao', '10955757', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12180619--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (737, 'Kakao', '12180619', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-15317417--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (741, 'Kakao', '15317417', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7937927--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (746, 'Kakao', '7937927', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-13028509--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (750, 'Kakao', '13028509', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-2104663194--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (752, 'Kakao', '2104663194', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-15104327--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (754, 'Kakao', '15104327', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26533469-임길섭-e3b0c44298fc1c149afbf4c8996fb92427ae41e' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (755, 'Kakao', '26533469', '임길섭', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27299118--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (760, 'Kakao', '27299118', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18524630--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (761, 'Kakao', '18524630', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-23209304--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (762, 'Kakao', '23209304', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-22730592--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (766, 'Kakao', '22730592', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27153079--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (768, 'Kakao', '27153079', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-17384905--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (773, 'Kakao', '17384905', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-7937294--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (774, 'Kakao', '7937294', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8047010--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (777, 'Kakao', '8047010', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-649402253--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (779, 'Kakao', '649402253', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-1425989301-4VkXD-e3b0c44298fc1c149afbf4c8996fb92427ae41e46' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (782, 'Naver', '1425989301', '4VkXD', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1301973155-?-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b9' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (783, 'Kakao', '1301973155', '😀', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 2)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26611217--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (799, 'Kakao', '26611217', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12860036--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (803, 'Kakao', '12860036', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-15493954--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (804, 'Kakao', '15493954', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-24635663--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (805, 'Kakao', '24635663', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-21160709--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (816, 'Kakao', '21160709', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12630966--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (818, 'Kakao', '12630966', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11202762--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (828, 'Kakao', '11202762', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27184288-도그커넥트-e3b0c44298fc1c149afbf4c8996fb9242' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (829, 'Kakao', '27184288', '도그커넥트', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18567555--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (841, 'Kakao', '18567555', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-15589117--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (843, 'Kakao', '15589117', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-24925090--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (844, 'Kakao', '24925090', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-15953085--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (846, 'Kakao', '15953085', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 1)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26967050--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (847, 'Kakao', '26967050', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-13494415--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (848, 'Kakao', '13494415', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8503628--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (850, 'Kakao', '8503628', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-19313939--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (851, 'Kakao', '19313939', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1276627753--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (856, 'Kakao', '1276627753', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8492841--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (859, 'Kakao', '8492841', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8117216--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (865, 'Kakao', '8117216', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-31608233-1PPDR-baeaef20a84deb8cbee26207bf70a387e90597cdbd2' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (866, 'Naver', '31608233', '1PPDR', '인테리어도 너무 좋고 음료랑 디저트도 맛있어요.', 'baeaef20a84deb8cbee26207bf70a387e90597cdbd2b6850daf3564f99720c8d', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-18826661--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (866, 'Kakao', '18826661', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-12591155--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (867, 'Kakao', '12591155', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-11831420--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (868, 'Kakao', '11831420', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 3)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27401535--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (875, 'Kakao', '27401535', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-1919474094--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b93' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (876, 'Kakao', '1919474094', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27387877-.-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (880, 'Kakao', '27387877', '.', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27301289--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (881, 'Kakao', '27301289', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-27481601--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (884, 'Kakao', '27481601', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 4)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Naver-35816452-87J5o-d2df2197e887a0da537ced682adc3f0b1200c352ce5' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (888, 'Naver', '35816452', '87J5o', '맛있어요', 'd2df2197e887a0da537ced682adc3f0b1200c352ce51f89f2fddc88e78c8d333', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-26562398--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (888, 'Kakao', '26562398', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-10005888--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (890, 'Kakao', '10005888', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-25048467--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (891, 'Kakao', '25048467', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8130030--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (892, 'Kakao', '8130030', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 0)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+
+[Error Type] <class 'sqlalchemy.exc.IntegrityError'>
+[Error Body] (MySQLdb._exceptions.IntegrityError) (1062, "Duplicate entry 'Kakao-8128910--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca' for key 'PRIMARY'")
+[SQL: INSERT INTO `Comments` (`placeId`, platform, `siteId`, author, content, `contentHash`, grade) VALUES (%s, %s, %s, %s, %s, %s, %s)]
+[parameters: (896, 'Kakao', '8128910', '', '', 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 5)]
+(Background on this error at: http://sqlalche.me/e/gkpj)
+

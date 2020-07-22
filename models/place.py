@@ -12,16 +12,16 @@ class Place(Base):
   address  = Column(String)
   img      = Column(Text)
 
-  def __init__(self, placeId, name, tel, address, img):
-    self.placeId = placeId
+  def __init__(self, siteId, name, tel, address, img):
+    self.siteId = siteId
     self.name = name
     self.tel = tel
     self.address = address
     self.img = img
 
   def show(self):
-    print('placeId: {placeId}, name: {name}, tel: {tel}, addr: {address}, img: {img}'.format(
-        placeId=self.placeId,
+    print('siteId: {siteId}, name: {name}, tel: {tel}, addr: {address}, img: {img}'.format(
+        siteId=self.siteId,
         name=self.name,
         tel=self.tel,
         address=self.address,
@@ -30,10 +30,17 @@ class Place(Base):
 
   def save(self):
     is_exist = self.is_exist_place()
+    placeId = 0
     
     if not is_exist:
       with session_scope('push', 'error') as session:
         session.add(self)
+        session.flush() 
+        placeId = self.id
+    else:
+      placeId = is_exist.id
+
+    return placeId 
 
   def is_exist_place(self):
     sql = '''

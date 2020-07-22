@@ -39,7 +39,6 @@ def session_scope(noti_push, noti_error):
   # )
   session = db_session
   # session = get_session()
-  
   try:
     yield session
     session.commit()
@@ -47,12 +46,17 @@ def session_scope(noti_push, noti_error):
   except Exception as err:
     session.rollback()
     exc_type, exc_value, exc_traceback = sys.exc_info()
-    print("*** print_tb:")
-    traceback.print_tb(exc_traceback, limit=1, file=sys.stdout)
-    print("*** print_exception:")
-    # exc_type below is ignored on 3.5 and later
-    traceback.print_exception(exc_type, exc_value, exc_traceback,
-                              limit=2, file=sys.stdout)
+    # print("*** print_tb:")
+    # traceback.print_tb(exc_traceback, limit=1, file=sys.stdout)
+    print("*** print_exception: start")
+    print(exc_type)
+    print(exc_value)
+    print("*** print_exception: end")
+    with open('./logs/db.log', 'a') as f:
+      f.write('[Error Type] %s\n'%(exc_type))
+      f.write('[Error Body] %s\n\n'%(exc_value))
+    # traceback.print_exception(exc_type, exc_value, exc_traceback,
+    #                           limit=2, file=sys.stdout)
     print('rollback')
     raise
   finally:
